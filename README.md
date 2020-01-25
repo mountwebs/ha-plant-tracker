@@ -1,2 +1,2 @@
-# ha-plant-tracker
-Plant tracker for Home Assistant with AppDaemon
+# plant-tracker for Home Assistant
+This is a simple tracker for when you need to water your plants.
