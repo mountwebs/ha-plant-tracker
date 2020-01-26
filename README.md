@@ -4,7 +4,7 @@ This is a simple appdaemon solution to keep track of when you need to water your
 
 This is an example of how I use the script together with [Button Card by RomRider]([https://github.com/custom-cards/button-card](https://github.com/custom-cards/button-card) (the colors represent the four different tracker states. The numbers are the days since the plant was watered). 
 
-![](images/Screen Shot 2020-01-25 at 22.32.35.png)
+![image](images/Screen Shot 2020-01-25 at 22.32.35.png)
 
 Plant infromation:
 
