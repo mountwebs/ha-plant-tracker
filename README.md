@@ -2,7 +2,7 @@
 
 This is a simple appdaemon solution to keep track of when you need to water your plants. Basically a habit tracker for watering your plants with AppDeamon and Home Assistant. No plants died during the making of Plant tracker.
 
-This is an example of how I use the script together with [Button Card by RomRider]([https://github.com/custom-cards/button-card](https://github.com/custom-cards/button-card) (the colors represent the four different tracker states. The numbers are the days since the plant was watered). 
+This is an example of how I use the script together with [Button Card by RomRider](https://github.com/custom-cards/button-card) (the colors represent the four different tracker states. The numbers are the days since the plant was watered). 
 
 ![](images/button_card.png?raw=true)
 
@@ -52,11 +52,11 @@ plants:
 
 ## Helper script
 
-You will have to add some way of updating the "last watered date" from Home Assistant. One way to do this is to [enable python scripts]([https://www.home-assistant.io/integrations/python_script/](https://www.home-assistant.io/integrations/python_script/) and add "water.py" to the python scripts folder. This script updates the date for the plant to today. The script can then be called any way you want. I do this from the button card.
+You will have to add some way of updating the "last watered date" from Home Assistant. One way to do this is to [enable python scripts](https://www.home-assistant.io/integrations/python_script/) and add "water.py" to the python scripts folder. This script updates the date for the plant to today. The script can then be called any way you want. I do this from the button card.
 
 ## Button card
 
-This is my template setup for the [Button Card](%5Bhttps://github.com/custom-cards/button-card%5D(https://github.com/custom-cards/button-card) in lovelace:
+This is my template setup for the [Button Card](https://github.com/custom-cards/button-card) in lovelace:
 
 ```
 button_card_templates:
@@ -153,7 +153,7 @@ And the buttons in my case:
 
 ## Test with influxdb and grafana
 
-This is a test of a visualistation of plant tracker states in grafana (with [Cal-HeatMap plugin]([https://grafana.com/grafana/plugins/neocat-cal-heatmap-panel](https://grafana.com/grafana/plugins/neocat-cal-heatmap-panel)):
+This is a test of a visualistation of plant tracker states in grafana (with [Cal-HeatMap plugin](https://grafana.com/grafana/plugins/neocat-cal-heatmap-panel)):
 
 ![](images/grafana.png?raw=true)
 
