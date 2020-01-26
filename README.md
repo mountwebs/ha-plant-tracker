@@ -16,7 +16,7 @@ The script creates a sensor for each plant you want to track. The sensor has fou
 
 The script also stores the "last watered date" in a file so that the states are retained after a restart.
 
-## Setup
+## Instuctions
 
 Add PlantTracker.py to your AppDaemon apps path (ex. /config/appdaemon/apps/). You will have to set up the script in AppDeamon and add all the plants you want to track in the configuration file (apps.yaml).
 
@@ -52,7 +52,7 @@ plant_tracker:
 
 ## Helper script
 
-You will have to add some way of updating the "last watered date" from Home Assistant. One way to do this is to [enable python scripts](https://www.home-assistant.io/integrations/python_script/) and add "water.py" to the python scripts folder. This script updates the date for the plant to today. The script can then be called any way you want. I do this from the button card.
+You will have to add some way of updating the "last watered date" from Home Assistant. One way to do this is to [enable python scripts](https://www.home-assistant.io/integrations/python_script/) and add "water.py" to the python scripts folder. This script updates the date for the "last watered date" to today. The script can then be called any way you want. I do this from the button card.
 
 ## Button card
 
