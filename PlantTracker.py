@@ -6,7 +6,7 @@ import json
 class PlantTracker2(hass.Hass):
     def initialize(self):
         self.initialize_plants()
-        runtime = datetime.time(0, 5)
+        runtime = datetime.time(1, 19)
         self.run_daily(self.recalculate_all_states, runtime)
         for plant in self.args["plants"]:
             entity = "plant_tracker.{}".format(plant.replace(" ", "_"))
@@ -22,7 +22,7 @@ class PlantTracker2(hass.Hass):
             return db_plants
         else:
             db_plants = {}
-           return db_plants
+            return db_plants
         #except:
         #    self.log("Could not load db")
         #    return {}
@@ -140,4 +140,4 @@ class PlantTracker2(hass.Hass):
                 plant_attr["days_since_watered"] = days_since_watered
                 self.set_state(entity, state=new_state, attributes=plant_attr)
 
-                self.log("Recalculated stated for {}".format(entity)) 
+                self.log("Recalculated stated for {}".format(entity))
