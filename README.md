@@ -1,6 +1,6 @@
 # Plant tracker for Home Assistant
 
-This is a simple appdaemon solution to keep track of when you need to water your plants. Basically a habit tracker for watering your plants with AppDeamon and Home Assistant. No plants died during the making of Plant tracker.
+This is a simple appdaemon solution to keep (manually) track of when you need to water your plants. Basically a habit tracker for watering your plants with AppDeamon and Home Assistant. No plants died during the making of this app.
 
 This is an example of how I use the script together with [Button Card by RomRider](https://github.com/custom-cards/button-card) (the colors represent the four different tracker states. The numbers are the days since the plant was watered). 
 
@@ -12,7 +12,7 @@ Plant infromation:
 
 *What the PlantTracker.py does:*
 
-The script creates a sensor for each plant you want to track. The sensor has four states: 3 (the plant was watered today), 2 (the plant does not need water), 1 (the plant should be checked), 0 (the plant needs water). The states are calculated every day at a chosen time (0:05 by default) and when the "last watered date" is changed (for example when you water the plant). 
+The script creates a sensor for each plant you want to track. The sensor has four states: 3 (the plant was watered today), 2 (the plant does not need water), 1 (the plant should be checked/can be watered), 0 (the plant needs water). The states are calculated every day at a chosen time (0:05 by default) and when the "last watered date" is changed (for example when you water the plant). 
 
 The script also stores the "last watered date" in a file so that the states are retained after a restart.
 
