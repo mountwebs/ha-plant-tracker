@@ -4,11 +4,11 @@ This is a simple appdaemon solution to keep track of when you need to water your
 
 This is an example of how I use the script together with [Button Card by RomRider]([https://github.com/custom-cards/button-card](https://github.com/custom-cards/button-card) (the colors represent the four different tracker states. The numbers are the days since the plant was watered). 
 
-![](/images/Screen Shot 2020-01-25 at 22.32.35.png)
+![](images/button_card.png?raw=true)
 
 Plant infromation:
 
-![](images/button_card.png?raw=true)
+![](images/info.png?raw=true)
 
 *What the PlantTracker.py does:*
 
@@ -155,7 +155,7 @@ And the buttons in my case:
 
 This is a test of a visualistation of plant tracker states in grafana (with [Cal-HeatMap plugin]([https://grafana.com/grafana/plugins/neocat-cal-heatmap-panel](https://grafana.com/grafana/plugins/neocat-cal-heatmap-panel)):
 
-![](images/Screen Shot 2020-01-26 at 14.18.39.png)
+![](images/grafana.png?raw=true)
 
 This shows the plants states in the last three months (From deep blue - just watered, to green to grey). For now this looks quite messy because I have done a lot of testing. 
 
