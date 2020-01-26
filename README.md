@@ -37,17 +37,17 @@ plant_tracker:
   module: PlantTracker
   class: PlantTracker
   file: /config/appdaemon/apps/plants.db 
-plants:
-  ava:
-    friendly_name: Ava
-    watering_interval: 4
-    icon: mdi:leaf
-    watering_window: 3
-  pilea:
-    friendly_name: Pilea 
-    watering_interval: 7
-    icon: mdi:leaf
-    watering_window: 4
+  plants:
+    ava:
+      friendly_name: Ava
+      watering_interval: 4
+      icon: mdi:leaf
+      watering_window: 3
+    pilea:
+      friendly_name: Pilea 
+      watering_interval: 7
+      icon: mdi:leaf
+      watering_window: 4
 ```
 
 ## Helper script
@@ -158,11 +158,3 @@ This is a test of a visualistation of plant tracker states in grafana (with [Cal
 ![](images/grafana.png?raw=true)
 
 This shows the plants states in the last three months (From deep blue - just watered, to green to grey). For now this looks quite messy because I have done a lot of testing. 
-
-
-
-
-
-
-
-
