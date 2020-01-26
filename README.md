@@ -8,7 +8,7 @@ This is an example of how I use the script together with [Button Card by RomRide
 
 Plant infromation:
 
-![](images/Screen Shot 2020-01-26 at 14.44.15.png)
+![](images/button_card.png?raw=true)
 
 *What the PlantTracker.py does:*
 
