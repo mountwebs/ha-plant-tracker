@@ -157,4 +157,7 @@ This is a test of a visualistation of plant tracker states in grafana (with [Cal
 
 ![](images/grafana.png?raw=true)
 
-This shows the plants states in the last three months (From deep blue - just watered, to green to grey). For now this looks quite messy because I have done a lot of testing. 
+This shows the plants states in the last three months (From deep blue - just watered, to green to grey). For now this looks quite messy because I have done a lot of testing.
+
+## About
+I am still learning python, and this is the first project I share. Any feedback or suggestions are appreciated!
