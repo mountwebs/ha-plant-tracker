@@ -1,6 +1,6 @@
 # Plant tracker for Home Assistant
 
-This is a simple appdaemon solution to keep (manually) track of when you need to water your plants. Basically a habit tracker for watering your plants with AppDeamon and Home Assistant. No plants died during the making of this app.
+This is a simple appdaemon solution to keep ("manual") track of when you need to water your plants. Basically a habit tracker for watering your plants with AppDeamon and Home Assistant. No plants died during the making of this app.
 
 This is an example of how I use the script together with [Button Card by RomRider](https://github.com/custom-cards/button-card) (the colors represent the four different tracker states. The numbers are the days since the plant was watered). 
 
