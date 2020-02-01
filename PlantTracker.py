@@ -3,7 +3,7 @@ import datetime
 import json
 
 
-class PlantTracker2(hass.Hass):
+class PlantTracker(hass.Hass):
     def initialize(self):
         self.initialize_plants()
         runtime = datetime.time(1, 19)
