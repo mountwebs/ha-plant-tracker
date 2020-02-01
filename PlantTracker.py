@@ -15,17 +15,15 @@ class PlantTracker(hass.Hass):
                               attribute="last_watered")
 
     def get_plants_from_db(self):
-        #try:
-        with open(self.args["file"], 'r') as f:
-            db_plants = json.load(f)
-        if db_plants:
-            return db_plants
-        else:
+        try:
+            with open(self.args["file"], 'r') as f:
+                db_plants = json.load(f)
+        except:
             db_plants = {}
-            return db_plants
-        #except:
-        #    self.log("Could not load db")
-        #    return {}
+            self.log("Could not load db, creating db file")
+            self.save_plants_to_db(db_plants)
+        
+        return db_plants
 
     def save_plants_to_db(self, db_plants):
         try:
