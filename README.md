@@ -161,3 +161,9 @@ This shows the plants states in the last three months (From deep blue - just wat
 
 ## About
 I am still learning python, and this is the first project I share. Any feedback or suggestions are appreciated!
+
+## Changelog
+1.2.2020
+- Fixed error in watering_window 
+- Fixed class name
+- Fixed time on run_daily (to 00:05)
