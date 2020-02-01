@@ -167,3 +167,4 @@ I am still learning python, and this is the first project I share. Any feedback 
 - Fixed error in watering_window 
 - Fixed class name
 - Fixed time on run_daily (to 00:05)
+- Fixed initialization error. Now creates empty db file.
