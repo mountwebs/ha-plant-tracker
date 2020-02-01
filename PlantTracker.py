@@ -6,7 +6,7 @@ import json
 class PlantTracker(hass.Hass):
     def initialize(self):
         self.initialize_plants()
-        runtime = datetime.time(1, 19)
+        runtime = datetime.time(0, 5)
         self.run_daily(self.recalculate_all_states, runtime)
         for plant in self.args["plants"]:
             entity = "plant_tracker.{}".format(plant.replace(" ", "_"))
