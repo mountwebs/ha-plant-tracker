@@ -129,8 +129,8 @@ class PlantTracker(hass.Hass):
                 plant_info = self.get_state(entity, attribute="all")
                 plant_attr = plant_info["attributes"]
                 watering_interval = plant_attr["watering_interval"]
-                if "watering_window" in plant_info:
-                    watering_window = plant_info["watering_window"]
+                if "watering_window" in plant_attr:
+                    watering_window = plant_attr["watering_window"]
                 else:
                     watering_window = 1
 
