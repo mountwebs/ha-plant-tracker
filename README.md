@@ -16,7 +16,7 @@ The script creates a sensor for each plant you want to track. The sensor has fou
 
 The script also stores the "last watered date" in a file so that the states are retained after a restart.
 
-[Post on the Home assistant forums.](https://community.home-assistant.io/t/plant-tracker-with-appdaemon/166663)
+More in [post on the Home assistant forum.](https://community.home-assistant.io/t/plant-tracker-with-appdaemon/166663)
 
 ## Instuctions
 
